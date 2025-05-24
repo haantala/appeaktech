@@ -1,0 +1,41 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:local": "NODE_ENV=local nodemon index.js",
+    "start:production": "NODE_ENV=production nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/postgres": "^7.0.0-alpha.41",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-fileupload": "^1.5.1",
+    "express.js": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "moment": "^2.30.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "react-router-dom": "^6.26.1",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2",
+    "simple-spellchecker": "^1.0.2",
+    "sweetalert2": "^11.14.1",
+    "sweetalert2-react-content": "^5.0.7",
+    "web-push": "^3.6.7",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.4.2"
+  }
+}
