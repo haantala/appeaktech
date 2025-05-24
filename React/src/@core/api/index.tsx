@@ -46,7 +46,6 @@ axios.interceptors.response.use(
   (response: AxiosResponse) => response?.data,
   (error) => {
     if (error.response?.status === 403) {
-      // handleToast(0, error.response.data.description);
       localStorage.clear();
       window.location.replace("/");
     }
